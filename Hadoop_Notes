@@ -6,4 +6,8 @@ JP4: JobTracker in Hadoop1 or Resource Manager in Hadoop2
 JP5 : TaskTracker in Hadoop1 or Node Manager in Hadoop2
 
 
-Zookeper: This component of Hadoop will check if the Active NameNode is down. If its down, it will make one of the Passive NameNode as active NameNode
+Zookeper: This component of Hadoop will check if the Active NameNode is down. If its down, it will make one of the Passive NameNode as active NameNode. Zookeeper is also multinode. It is also having a cluster and works under. If anyone of the zookeeper will go down, then the next follower will become the leader.
+
+Default heartbeat interval is 3 seconds.
+
+Zonal Node: All metadata will be stored in a zonal node. All the Active-Passive NameNode will fetch the metadata from this Zonal Node.
