@@ -4,3 +4,6 @@ JP3 : Secondary NameNode
 
 JP4: JobTracker in Hadoop1 or Resource Manager in Hadoop2
 JP5 : TaskTracker in Hadoop1 or Node Manager in Hadoop2
+
+
+Zookeper: This component of Hadoop will check if the Active NameNode is down. If its down, it will make one of the Passive NameNode as active NameNode
