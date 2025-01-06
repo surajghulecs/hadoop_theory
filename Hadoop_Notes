@@ -1,0 +1,6 @@
+JP1 : NameNode
+JP2 : DataNode
+JP3 : Secondary NameNode
+
+JP4: JobTracker in Hadoop1 or Resource Manager in Hadoop2
+JP5 : TaskTracker in Hadoop1 or Node Manager in Hadoop2
