@@ -11,3 +11,17 @@ Zookeper: This component of Hadoop will check if the Active NameNode is down. If
 Default heartbeat interval is 3 seconds.
 
 Zonal Node: All metadata will be stored in a zonal node. All the Active-Passive NameNode will fetch the metadata from this Zonal Node.
+
+Types of Node in Hadoop 1:
+1. Master Node: Has NameNode and JobTracker
+2. Slave Node: Has DataNode and TaskTracker
+3. Checkpoint Node: Secondary NameNode.
+
+Type of Node in Hadoop 2:
+1. Master Node: NameNode and Resource Manager
+2. Slave Node: DataNode and Node Manager
+3. Secondary NameNode
+
+Types of Cluster:
+1. Single Node: All deamons are running under single node. Also called as Presudo Node. Used for testing.
+2. Distributed Cluster: Best practice should have 5 nodes. 1 for Name Node 2 for Secondary NameNode and remaining 3 nodes as Data Node. 
